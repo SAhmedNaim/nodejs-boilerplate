@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
     updatedAt: { type: Date, required: true },
 });
 
-const user = new mongoose.model("User", userSchema);
+const User = new mongoose.model("User", userSchema);
 
 async function getPasswordHash(password) {
     return await bcrypt.hash(password, 10);
