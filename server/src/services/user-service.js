@@ -1,5 +1,6 @@
 const models = require("../models/data-models");
 const { UserViewModel } = require("../models/view-models/user-view-model");
+const { NotFound } = require("../utils/errors");
 
 const Model = models.User;
 
