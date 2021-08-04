@@ -1,8 +1,9 @@
-  
 const User = require('./user');
+const Role = require('./role');
 
 const models = {
-    User,
+    User, 
+    Role,
 }
 
 module.exports = models;
